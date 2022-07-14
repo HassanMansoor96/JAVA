@@ -29,7 +29,7 @@ public class MarblesApp {
 // calculate the results
         marblesPerChild = numberOfMarbles / numberOfChildren;
         marblesLeftOver = numberOfMarbles % numberOfChildren;
-// print the results →26
+// print the results 
         System.out.println("Give each child "
                 + marblesPerChild + " marbles.");
         System.out.println("You will have "
