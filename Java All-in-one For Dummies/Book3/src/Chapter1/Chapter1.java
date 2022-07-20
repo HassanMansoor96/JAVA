@@ -1,3 +1,15 @@
+//Inheritance is an object-oriented programming technique that lets you use one
+//class as the basis for another. The existing class is called the base class, superclass,
+//or parent class; the new class that’s derived from it is called the derived class, subclass,
+//or child class.
+
+//An interface is a set of methods and fields that a class must provide to implement
+//the interface. The interface itself is simply a set of public method and field declarations
+//that are given a name. Note that the interface itself doesn’t provide any
+//code that implements those methods. Instead, it just provides the declarations.
+//Then a class that implements the interface provides code for each of the methods
+//the interface defines.
+
 //The type of a variable is indicated by following the variable name
 //with a colon and the type: 
                             //connectionString: String
