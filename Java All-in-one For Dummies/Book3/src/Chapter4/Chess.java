@@ -8,8 +8,9 @@ package Chapter4;
  *
  * @author Hassan
  */
-public class Game {
+public class Chess extends Game {
 
     public void play() {
+        System.out.println("I give up. You win.");
     }
 }
