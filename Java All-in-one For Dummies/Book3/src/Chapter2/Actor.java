@@ -8,15 +8,7 @@ package Chapter2;
  *
  * @author Hassan
  */
-
-public class BadActorApp {
-
-    public static void main(String[] args) {
-       // Actor a = new Actor(); // error: won't compile
-    }
-}
-
-class Actor {
+public class Actor {
 
     private String lastName;
     private String firstName;
@@ -28,8 +20,7 @@ class Actor {
     }
 
     public Actor(String last, String first, boolean good) {
-        lastName = last;
-        firstName = first;
+        this(last, first);
         goodActor = good;
     }
 }
