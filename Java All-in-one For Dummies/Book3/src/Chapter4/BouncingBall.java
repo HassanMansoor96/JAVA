@@ -16,3 +16,6 @@ public class BouncingBall extends Ball {
 // the bounce method
     }
 }
+
+//Here I’m creating a class named BouncingBall that extends the Ball class.
+//(Extends is Java’s word for inherits.)
