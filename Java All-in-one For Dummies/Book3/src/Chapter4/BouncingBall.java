@@ -2,18 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Chapter3;
+package Chapter4;
 
 /**
  *
  * @author Hassan
  */
-public class Invoice {
+public class BouncingBall extends Ball {
+// methods and fields that add the ability to bounce
+// to a basic Ball object:
 
-    private static double taxRate = 0.75;
-    private double salesTotal;
-
-    public double getTax() {
-        return salesTotal * taxRate;
+    public void bounce() {
+// the bounce method
     }
 }

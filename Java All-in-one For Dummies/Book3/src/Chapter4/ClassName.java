@@ -2,18 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Chapter3;
+package Chapter4;
 
 /**
  *
  * @author Hassan
  */
-public class Invoice {
-
-    private static double taxRate = 0.75;
-    private double salesTotal;
-
-    public double getTax() {
-        return salesTotal * taxRate;
-    }
+public class ClassName extends BaseClass {
+// class body goes here
 }
