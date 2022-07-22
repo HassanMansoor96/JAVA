@@ -8,6 +8,9 @@ package Chapter3;
  *
  * @author Hassan
  */
+
+//this app is being incremented by 1 each timne until it reaches 10.
+
 public class countTestApp {         //public class called countTestApp
 
     public static void main(String[] args) {           //main method
