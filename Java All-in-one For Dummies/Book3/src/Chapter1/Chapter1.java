@@ -1,3 +1,11 @@
+//What Is Object-Oriented Programming?
+//The term object-oriented programming means many different things. But at its
+//heart, object-oriented programming is a type of computer programming based
+//on the premise that all programs are essentially computer-based simulations of
+//real-world objects or abstract concepts.
+
+//Objects have identity, type, state, behavior
+
 //Inheritance is an object-oriented programming technique that lets you use one
 //class as the basis for another. The existing class is called the base class, superclass,
 //or parent class; the new class that’s derived from it is called the derived class, subclass,
