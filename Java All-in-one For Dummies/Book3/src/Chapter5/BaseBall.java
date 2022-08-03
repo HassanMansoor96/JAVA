@@ -4,10 +4,7 @@
  */
 package Chapter5;
 
-/**
- *
- * @author Hassan
- */
+
 public class BaseBall extends Ball {
 
     public int hit(int batSpeed) {
