@@ -4,10 +4,12 @@
  */
 package Chapter5;
 
-/**
- *
- * @author Hassan
- */
-public class Poker {
-    
+
+//A class can possibly inherit a superclass and implement one or more interfaces.
+
+public class Poker extends Game
+        implements Playable, CardGame {
+// inherits all members of the Game class
+// must implement methods of the Playable
+// and CardGame interfaces
 }
