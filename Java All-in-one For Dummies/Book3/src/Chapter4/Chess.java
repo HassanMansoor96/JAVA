@@ -4,13 +4,15 @@
  */
 package Chapter4;
 
-/**
- *
- * @author Hassan
- */
+//Then you declare a class named Chess that extends the Game class but also provides
+//an implementation for the play method:
+
 public class Chess extends Game {
 
     public void play() {
         System.out.println("I give up. You win.");
     }
 }
+
+//Here, when you call the play method of a Chess object, the game announces that
+//it gives up.
