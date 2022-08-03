@@ -8,6 +8,6 @@ package Chapter4;
  *
  * @author Hassan
  */
-public class chapter4 {
+public class SpaceShip {
     
 }
