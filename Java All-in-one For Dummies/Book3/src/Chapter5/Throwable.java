@@ -11,25 +11,25 @@ package Chapter5;
 //an existing interface is called a subinterface, and the interface being extended is
 //called the superinterface.
 
-public interface ThrowableBall {
-
-    void throwBall();
-
-    void catchBall();
-}
-
-public interface KickableBall {
-
-    void kickBall();
-
-    void catchBall();
-}
-
-public interface PlayableBall
-        extends ThrowableBall, KickableBall {
-
-    void dropBall();
-}
+//public interface ThrowableBall {
+//
+//    void throwBall();
+//
+//    void catchBall();
+//}
+//
+//public interface KickableBall {
+//
+//    void kickBall();
+//
+//    void catchBall();
+//}
+//
+//public interface PlayableBall
+//        extends ThrowableBall, KickableBall {
+//
+//    void dropBall();
+//}
 
 //Here three interfaces are declared. The first, named ThrowableBall, defines two
 //methods: throwBall and catchBall. The second, named KickableBall, also

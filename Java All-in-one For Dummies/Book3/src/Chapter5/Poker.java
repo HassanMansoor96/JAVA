@@ -4,6 +4,8 @@
  */
 package Chapter5;
 
+import Chapter4.Game;
+
 
 //A class can possibly inherit a superclass and implement one or more interfaces.
 
