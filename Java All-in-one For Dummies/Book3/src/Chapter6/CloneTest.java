@@ -57,6 +57,7 @@ class Employee {
         this.salary = salary;
     }
 
+    @Override
     public Object clone() {
         Employee emp;
         emp = new Employee(
