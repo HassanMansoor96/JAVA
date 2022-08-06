@@ -66,6 +66,7 @@ class Employee {
         return emp;
     }
 
+    @Override
     public String toString() {
         return this.getClass().getName() + "["
                 + this.firstName + " "
