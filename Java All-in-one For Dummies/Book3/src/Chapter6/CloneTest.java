@@ -57,7 +57,6 @@ class Employee {
         this.salary = salary;
     }
 
-    @Override
     public Object clone() {
         Employee emp;
         emp = new Employee(
@@ -66,7 +65,6 @@ class Employee {
         return emp;
     }
 
-    @Override
     public String toString() {
         return this.getClass().getName() + "["
                 + this.firstName + " "
