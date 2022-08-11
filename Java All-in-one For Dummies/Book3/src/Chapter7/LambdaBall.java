@@ -1,12 +1,15 @@
 //Using Lambda Expressions
+
 //A lambda expression lets you create
 //an anonymous class that implements a specific type of interface called a
 //functional interface — which has one and only one abstract method.
+
 //A lambda expression is a concise way to create an anonymous class that implements
 //a functional interface. Instead of providing a formal method declaration
 //that includes the return type, method name, parameter types, and method body,
 //you simply define the parameter types and the method body. The Java compiler
 //infers the rest based on the context in which you use the lambda expression.
+
 //The parameter types are separated from the method body by a new operator,
 //called the arrow operator, which consists of a hyphen followed by a greater-than
 //symbol. Here’s an example that implements the Ball interface:

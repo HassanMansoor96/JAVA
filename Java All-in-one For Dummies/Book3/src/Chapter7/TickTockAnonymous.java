@@ -1,7 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+//Creating a program with an anonymous class
+
+
+//A more complex example of an anonymous class: a version of
+//the Tick Tock application that uses an anonymous class as the action listener for
+//the timer.
+
 package Chapter7;
 
 import java.awt.event.*;
