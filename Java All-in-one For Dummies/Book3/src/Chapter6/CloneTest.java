@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+//Cloning refers to the process of making an exact duplicate of an object. Unfortunately,
+//this process turns out to be a pretty difficult task in an object-oriented
+//language such as Java.
+
 package Chapter6;
 
-/**
- *
- * @author Hassan
- */
+//A simple example of a program that clones Employee objects.
+//In a nutshell, this program overrides the clone method for the Employee class: It
+//creates an Employee object, clones it, changes the name of the original Employee
+//object, and prints out both objects to the console.
+
 public class CloneTest {
 
     public static void main(String[] args) {

@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//DEEP COPY
+
+//A deep copy is a clone in which any subobjects within the main object are also cloned
+
 package Chapter6;
 
-/**
- *
- * @author Hassan
- */
+
+//Here, an Employee class contains a public field
+//named address, which holds an instance of the Address class. As you can see,
+//the clone method of the Employee class creates a shallow copy of the Employee
+//object and then sets the copy’s address field to a clone of the original object’s
+//address field. To make this example work, the Address class also overrides the
+//clone method. Its clone method calls super.clone() to create a shallow copy of
+//the Address object.
+
 public class CloneTest2 {
 
     public static void main(String[] args) {
@@ -134,3 +139,9 @@ class Address implements Cloneable {
                 + this.zipCode;
     }
 }
+
+
+//The main method in the CloneTest2 class creates an Employee object and sets its
+//name, salary, and address. Then it creates a clone of this object and prints the data
+//contained in both objects. Next, it changes the last name and address of the second
+//employee and prints the data again.
