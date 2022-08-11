@@ -1,7 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+//Like a static method, a static inner class can’t access any nonstatic fields or methods
+//in its outer class. It can access static fields or methods, however.
+
 package Chapter7;
 
 /**

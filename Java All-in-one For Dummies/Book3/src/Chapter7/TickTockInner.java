@@ -1,7 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+//Book 3, Chapter 5 introduces an application that uses the Timer class in the Swing
+//package (javax.swing.Timer) that displays the lines Tick... and Tock... on the
+//console at one-second intervals. It uses a class named Ticker that implements
+//the ActionListener interface to handle the Timer object’s clock events.
+
 package Chapter7;
 
 import java.awt.event.*;
