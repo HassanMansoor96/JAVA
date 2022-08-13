@@ -1,9 +1,6 @@
 //The toString Method
-
 //The toString method returns a String representation of an object. By default, the
 //toString method returns the name of the object’s class plus its hash code.
-        
-        
 package Chapter6;
 
 public class TestToString {
@@ -23,6 +20,12 @@ class Employee {
     public Employee(String lastName, String firstName) {
         this.lastName = lastName;
         this.firstName = firstName;
+    }
+
+    public String toString() {
+        return this.getClass().getName() + "["
+                + this.firstName + " "
+                + this.lastName + "]";
     }
 }
 
