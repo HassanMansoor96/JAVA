@@ -4,10 +4,8 @@
  */
 package Chapter8;
 
-/**
- *
- * @author Hassan
- */
+import java.util.Scanner;
+
 public class Chapter8 {
-    
+    static Scanner sc = new Scanner(System.in);
 }
