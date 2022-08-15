@@ -1,7 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
+//Here the import statement imports all the classes in the com.lowewriter.util
+//package. Then, the while loop in the main method repeatedly asks the user if he
+//or she wants to keep going.
+
 package Chapter8;
 
 /**

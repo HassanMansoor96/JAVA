@@ -57,3 +57,8 @@ public class Console {
         }
     }
 }
+
+//So you create a directory named c:\javaclasses\com\lowewriter\ util
+//and save the source file to this directory. Then
+//you compile the program so the Console.class file is stored in that directory too.
+//And you add c:\javaclasses to your ClassPath environment variable.
