@@ -35,9 +35,59 @@
 //Complete table starting on page 378.
 
 
+//The most important thing to remember about the String class is that in spite
+//of the fact that it has a bazillion methods, none of those methods let you alter
+//the string in any way. A String object is immutable, which means that it can’t be
+//changed.
+
+//Although you can’t change a string after you create it, you can use methods of the
+//String class to create new strings that are variations of the original string. The
+//following sections describe some of the more interesting things you can do with
+//these methods.
 
 
+//Finding the length of a string
 
+//One of the most basic string operations is determining the length of a string. You
+//do that with the length method. For example:
+
+//String s = "A wonderful day for a neighbor.";
+//int len = s.length();
+
+//Here len is assigned a value of 31 because the string s consists of 30 characters.
+
+//Making simple string modifications
+
+//Several of the methods of the String class return modified versions of the original
+//string. toLowerCase, for example, converts a string to all-lowercase letters:
+
+//String s1 = "Oompa Loompa";
+//String s2 = s1.toLowerCase();
+
+//Here s2 is set to the string oompa loompa. The toUpperCase method works the
+//same way but converts strings to all-uppercase letters.
+
+//The trim method removes white-space characters (spaces, tabs, newlines, and so
+//on) from the start and end of a word. Here’s an example:
+
+//String s = " Oompa Loompa ";
+//s = s.trim();
+
+//Here the spaces before and after Oompa Loompa are removed. Thus, the resulting
+//string is ten characters long.
+
+//Bear in mind that because strings are immutable, these methods don’t actually
+//change the String object. Instead, they create a new String with the modified
+//value. A common mistake — especially for programmers who are new to Java but
+//experienced in other languages — is to forget to assign the return value from one
+//of these methods. The following statement has no effect on s:
+
+//s.trim();
+
+//Here the trim method trims the string — but then the program discards the
+//result. The remedy is to assign the result of this expression back to s, like this:
+
+//s = s.trim();
 
 
 
