@@ -32,6 +32,8 @@
 //int indexOf(char)                     Returns the index of the first occurrence of the char parameter
 //                                      in this string. Returns -1 if the character isn’t in the string.
 
+//Complete table starting on page 378.
+
 
 
 
