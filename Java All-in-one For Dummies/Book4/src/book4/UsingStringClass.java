@@ -90,6 +90,44 @@
 //s = s.trim();
 
 
+//Extracting characters from a string
+
+//You can use the charAt method to extract a character from a specific position in a
+//string.
+
+//Here’s an example of a program that uses the charAt method to count the number
+//of vowels in a string entered by the user:
+
+//import java.util.Scanner;
+//public class CountVowels
+//{
+//static Scanner sc = new Scanner(System.in);
+//public static void main(String[] args)
+//{
+//System.out.print("Enter a string: ");
+//String s = sc.nextLine();
+//int vowelCount = 0;
+//for (int i = 0; i < s.length(); i++)
+//{
+//char c = s.charAt(i);
+//if ( (c == 'A') || (c == 'a')
+//|| (c == 'E') || (c == 'e')
+//|| (c == 'I') || (c == 'i')
+//|| (c == 'O') || (c == 'o')
+//|| (c == 'U') || (c == 'u') )
+//vowelCount++;
+//}
+//System.out.println("That string contains "
+//+ vowelCount + " vowels.");
+//}
+//}
+
+
+//Here the for loop checks the length of the string to make sure that the index
+//variable i doesn’t exceed the string length. Then each character is extracted and
+//checked with an if statement to see whether it is a vowel. The condition expression
+//in this if statement is a little complicated because it must check for five different
+//vowels, both uppercase and lowercase.
 
 
 
