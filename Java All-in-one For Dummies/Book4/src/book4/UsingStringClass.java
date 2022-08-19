@@ -129,6 +129,11 @@
 //in this if statement is a little complicated because it must check for five different
 //vowels, both uppercase and lowercase.
 
+//Following is an example that shows the output created by this program if you
+//enter a string listing all of the letters of the alphabet:
+//Enter a string: abcdefghijklmnopqrstuvwxyz
+//That string contains 5 vowels.
+
 
 
 
