@@ -85,7 +85,7 @@ public class Employee {
     }
 }
 
-public class Address implements Cloneable {
+class Address implements Cloneable {
 
     public String street;
     public String city;
