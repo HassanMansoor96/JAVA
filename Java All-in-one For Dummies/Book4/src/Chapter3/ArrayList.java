@@ -4,12 +4,12 @@
 
 //To create an array list, you first declare an ArrayList variable and then call the
 //ArrayList constructor to instantiate an ArrayList object and assign it to the
-//variable. You can do this on separate lines:
+//variable. You can do this on separate lines like this:
 
 //ArrayList signs;
 //signs = new ArrayList();
 
-//Alternatively, you can do it on a single line:
+//Or,Alternatively, you can do it on a single line:
 
 //ArrayList signs = new ArrayList();
 
@@ -18,7 +18,7 @@
 //Adding Elements
 
 //After you create an array list, you can use the add method to add objects to the
-//array list. Here’s code that adds strings to an array list:
+//array list. Here’s an example that adds strings to an array list:
 
 //signs.add("Drink Pepsi");
 //signs.add("No minors allowed");
@@ -30,7 +30,7 @@
 //add method must be of the correct type.
 
 //You can insert an object at a specific position in the list by listing the position in
-//the add method. Consider these statements:
+//the add method, consider these statements:
 
 //ArrayList<String> nums = new ArrayList<String>();
 //nums.add("One");
@@ -114,7 +114,7 @@
 //Updating Elements
 
 //You can use the set method to replace an existing object with another object.
-//Consider this example:
+//Example:
 
 //ArrayList<String> nums = new ArrayList<String>();
 //nums.clear();
