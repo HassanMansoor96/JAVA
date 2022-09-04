@@ -38,6 +38,51 @@
 //for the formal type parameter E. If E is Employee, that means the add method only
 //accepts Employee objects.
 
+//So far, so good. Now take a look at how you can use a formal type parameter as a
+//return type. Here’s the declaration for the get method:
+
+//public E get(int index)
+//{
+//// body of method omitted (you're welcome)
+//}
+
+//Here E is specified as the return type. That means that if E is Employee, this
+//method returns Employee objects.
+
+//One final technique you need to know before moving on: You can use the formal
+//type parameter within your class to create objects of any other class that accepts
+//formal type parameters. For example, the clone method of the ArrayList class
+//is written like this:
+
+//public Object clone()
+//{
+//try
+//{
+//ArrayList<E> v = (ArrayList<E>) super.clone();
+//v.elementData = (E[])new Object[size];
+//System.arraycopy(elementData, 0,
+//v.elementData, 0, size);
+//v.modCount = 0;
+//return v;
+//}
+//catch (CloneNotSupportedException e)
+//{
+//// this shouldn't happen since we're Cloneable
+//throw new InternalError();
+//}
+//}
+
+
+//You don’t need to look much at the details in this method; just notice that the first
+//statement in the try block declares an ArrayList of type <E>. In other words, the
+//ArrayList class uses its own formal type parameter to create another array list
+//object of the same type. If you think about it, that makes perfect sense. After all,
+//that’s what the clone method does: It creates another array list just like this one.
+//The key benefit of generics is that this typing happens at compile time. Thus, after
+//you specify the value of a formal type parameter, the compiler knows how to do
+//the type checking implied by the parameter. That’s how it knows not to let you
+//add String objects to an Employee collection.
+
 
 
 
