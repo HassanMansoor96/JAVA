@@ -73,15 +73,46 @@
 //}
 
 
-//You don’t need to look much at the details in this method; just notice that the first
-//statement in the try block declares an ArrayList of type <E>. In other words, the
-//ArrayList class uses its own formal type parameter to create another array list
-//object of the same type. If you think about it, that makes perfect sense. After all,
-//that’s what the clone method does: It creates another array list just like this one.
+//Notice that the first statement in the try block declares an ArrayList of type <E>.
+// In other words, the ArrayList class uses its own formal type parameter to create another array list
+//object of the same type.
+// After all,that’s what the clone method does: It creates another array list just like this one.
+
 //The key benefit of generics is that this typing happens at compile time. Thus, after
 //you specify the value of a formal type parameter, the compiler knows how to do
 //the type checking implied by the parameter. That’s how it knows not to let you
 //add String objects to an Employee collection.
+
+
+//A Generic Stack Class
+//In this section we will look at a simple generic class that implements a stack.
+
+//A stack is a simple type of collection that lets you add objects to the top 
+//of the collection and remove them from the top.
+
+//I name this Stack class GenStack, and it has five methods:
+
+//»»push: This method adds an object to the top of the stack.
+//        
+//»»pop: This method retrieves the top item from the stack. The item is removed
+//from the stack in the process. If the stack is empty, this method returns null.
+//        
+//»»peek: This method lets you peek at the top item on the stack. In other words,
+//it returns the top item without removing it. If the stack is empty, it returns
+//null.
+//        
+//»»hasItems: This method returns a boolean value of true if the stack has at
+//least one item in it.
+//
+//»»size: This method returns an int value that indicates how many items are in
+//the stack.
+
+//The GenStack class uses a LinkedList to implement the stack. For the most part,
+//this class simply exposes the various methods of the LinkedList class using
+//names that are more appropriate for a stack
+
+
+
 
 
 
