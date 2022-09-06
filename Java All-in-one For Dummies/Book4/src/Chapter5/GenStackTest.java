@@ -1,7 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+This program creates a GenStack object that can hold String objects. It then
+pushes four strings onto the stack and prints the number of items in the stack.
+Next, it uses the peek method to print the top item and again prints the number of
+items in the stack, just to make sure the peek method doesn’t accidentally remove
+the item. Next, it uses a while loop to pop each item off the stack and print it.
+Then, once again, it prints the number of items, and it peeks at the top item.
+*/
+
+
 package Chapter5;
 
 /**
