@@ -3,20 +3,20 @@
 //Creating a Generic Class
 
 //Generics let you create classes that can be used for any type specified by the programmer
-//at compile time. To accomplish that, the Java designers introduced a
-//new feature to the language, called formal type parameters. To create a class that
-//uses a formal type parameter, you list the type parameter after the class name
-//in angle brackets. The type parameter has a name — Oracle recommends you
+//at compile time. 
+//To accomplish that, there's a feature called formal type parameters.
+//To create a class that uses a formal type parameter, you list the type parameter after the class name
+//in angle brackets.
+//The type parameter has a name — Oracle recommends you
 //use single uppercase letters for type parameter names — that you can then use
 //throughout the class anywhere you’d otherwise use a type.
 
-//For example, here’s a simplified version of the class declaration for the Array
-//List class:
+//For example :
 
 //public class ArrayList<E>
-//I left out the extends and implements clauses to focus on the formal type parameter:
 //<E>. The E parameter specifies the type of the elements that are stored in the
-//list. Oracle recommends the type parameter name E (for Element) for any parameter
+//list. 
+//Oracle recommends the type parameter name E (for Element) for any parameter
 //that specifies element types in a collection.
 
 //So consider this statement:
@@ -33,12 +33,12 @@
 //// body of method omitted (thank you)
 //}
 
-//Where you normally expect to see a parameter type, you see the letter E. Thus, this
-//method declaration specifies that the type for the o parameter is the type specified
-//for the formal type parameter E. If E is Employee, that means the add method only
-//accepts Employee objects.
+//Where you normally expect to see a parameter type, you see the letter E. 
+//Thus, this method declaration specifies that the type for the o parameter is the type specified
+//for the formal type parameter E.
+//If E is Employee, that means the add method only accepts Employee objects.
 
-//So far, so good. Now take a look at how you can use a formal type parameter as a
+//How you can use a formal type parameter as a
 //return type. Here’s the declaration for the get method:
 
 //public E get(int index)
@@ -85,7 +85,6 @@
 
 
 //A Generic Stack Class
-//In this section we will look at a simple generic class that implements a stack.
 
 //A stack is a simple type of collection that lets you add objects to the top 
 //of the collection and remove them from the top.
