@@ -4,7 +4,10 @@
  */
 package page525_recursive;
 
-
+/**
+ *
+ * @author Brent
+ */
 public class recursive {
 
     public static void main(String[] args) {
