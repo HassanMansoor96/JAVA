@@ -4,10 +4,7 @@
  */
 package page499_AbortingTheCountdown;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.ArrayList;
 
 public class CountDownApp //→3

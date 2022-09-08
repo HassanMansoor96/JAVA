@@ -4,10 +4,7 @@
  */
 package page485_CreatingThreadsThatWorkTogether;
 
-/**
- *
- * @author Brent
- */
+
 interface TimeMonitor //→26
 {
 

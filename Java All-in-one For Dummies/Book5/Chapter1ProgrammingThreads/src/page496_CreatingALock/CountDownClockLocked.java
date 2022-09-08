@@ -4,10 +4,7 @@
  */
 package page496_CreatingALock;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class CountDownClockLocked extends Thread {

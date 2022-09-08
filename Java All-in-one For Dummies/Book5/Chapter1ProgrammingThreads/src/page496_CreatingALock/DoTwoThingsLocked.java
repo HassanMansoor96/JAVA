@@ -4,10 +4,7 @@
  */
 package page496_CreatingALock;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 public class DoTwoThingsLocked {

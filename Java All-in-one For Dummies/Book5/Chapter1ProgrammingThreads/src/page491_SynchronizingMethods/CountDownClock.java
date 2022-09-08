@@ -6,10 +6,7 @@ package page491_SynchronizingMethods;
 
 import page485_CreatingThreadsThatWorkTogether.*;
 
-/**
- *
- * @author Brent
- */
+
 class CountDownClock extends Thread
         implements TimeMonitor //→31
 {

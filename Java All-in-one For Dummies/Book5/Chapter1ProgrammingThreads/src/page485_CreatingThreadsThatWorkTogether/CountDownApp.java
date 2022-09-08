@@ -4,10 +4,7 @@
  */
 package page485_CreatingThreadsThatWorkTogether;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.ArrayList;
 // version 2.0 of the Countdown application
 

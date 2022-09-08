@@ -4,10 +4,7 @@
  */
 package page482_CreatingAClassThatImplementsRunnable;
 
-/**
- *
- * @author Brent
- */
+
 public class LaunchEvent implements Runnable //→1
 {
 

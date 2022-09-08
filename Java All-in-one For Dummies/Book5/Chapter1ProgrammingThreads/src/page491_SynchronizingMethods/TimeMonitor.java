@@ -6,10 +6,7 @@ package page491_SynchronizingMethods;
 
 import page485_CreatingThreadsThatWorkTogether.*;
 
-/**
- *
- * @author Brent
- */
+
 interface TimeMonitor //→26
 {
 

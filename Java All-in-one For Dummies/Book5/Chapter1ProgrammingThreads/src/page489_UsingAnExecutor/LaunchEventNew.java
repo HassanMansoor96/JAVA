@@ -4,10 +4,7 @@
  */
 package page489_UsingAnExecutor;
 
-/**
- *
- * @author Brent
- */
+
 public class LaunchEventNew implements Runnable {
 
     private String message;

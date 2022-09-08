@@ -4,10 +4,7 @@
  */
 package page478_ExtendingTheThreadClass;
 
-/**
- *
- * @author Brent
- */
+
 public class CountDownClock extends Thread //→1
 {
 

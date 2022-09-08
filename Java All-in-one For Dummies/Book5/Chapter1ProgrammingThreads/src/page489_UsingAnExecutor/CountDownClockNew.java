@@ -4,10 +4,7 @@
  */
 package page489_UsingAnExecutor;
 
-/**
- *
- * @author Brent
- */
+
 public class CountDownClockNew implements Runnable {
 
     int t;

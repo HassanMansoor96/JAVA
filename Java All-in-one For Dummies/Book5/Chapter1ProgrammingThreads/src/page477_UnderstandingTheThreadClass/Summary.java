@@ -4,13 +4,10 @@
  */
 package page477_UnderstandingTheThreadClass;
 
-/**
- *
- * @author Brent
- */
 public class Summary {
-    public static void main(String[] args) {
-        System.out.println("The Thread class lets you create an object that can be run as a thread in a multithreaded\n" +
-"Java application.");
-    }
+    /*
+    "The Thread class lets you create an object that can be run as a thread in a multithreaded\n" +
+    "Java application.
+     */
+
 }

@@ -7,12 +7,9 @@ package page483_UsingTheCountDownAppClass;
 import page478_ExtendingTheThreadClass.CountDownClock;
 import page482_CreatingAClassThatImplementsRunnable.LaunchEvent;
 
-/**
- *
- * @author Brent
- */
+
 public class CountDownApp {
-    //Print Statement may vary a bit becuase some threads can finish task before other one
+   
 
     public static void main(String[] args) {
         Thread clock = new CountDownClock(); //→5

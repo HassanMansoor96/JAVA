@@ -4,10 +4,7 @@
  */
 package page481_UsingTheRunnableInterface;
 
-/**
- *
- * @author Brent
- */
+
 public class main {
 
     public static void main(String[] args) {

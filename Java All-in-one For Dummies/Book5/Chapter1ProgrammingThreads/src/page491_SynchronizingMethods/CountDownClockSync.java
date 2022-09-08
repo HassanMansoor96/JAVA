@@ -4,10 +4,7 @@
  */
 package page491_SynchronizingMethods;
 
-/**
- *
- * @author Brent
- */
+
 class CountDownClockSync extends Thread {
 
     private int start;

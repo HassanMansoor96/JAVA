@@ -4,10 +4,7 @@
  */
 package page489_UsingAnExecutor;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 

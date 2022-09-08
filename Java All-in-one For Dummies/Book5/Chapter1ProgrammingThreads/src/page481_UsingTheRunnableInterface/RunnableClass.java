@@ -4,10 +4,7 @@
  */
 package page481_UsingTheRunnableInterface;
 
-/**
- *
- * @author Brent
- */
+
 public class RunnableClass implements Runnable{
 
     @Override

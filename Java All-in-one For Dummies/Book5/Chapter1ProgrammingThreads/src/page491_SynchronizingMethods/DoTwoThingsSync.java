@@ -4,10 +4,7 @@
  */
 package page491_SynchronizingMethods;
 
-/**
- *
- * @author Brent
- */
+
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 public class DoTwoThingsSync {
