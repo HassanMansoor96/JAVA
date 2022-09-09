@@ -4,10 +4,7 @@
  */
 package page524_nonRecursive;
 
-/**
- *
- * @author Brent
- */
+
 public class nonRecursive {
 
     /**

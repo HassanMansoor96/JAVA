@@ -4,10 +4,7 @@
  */
 package page535_Sorting;
 
-/**
- *
- * @author Brent
- */
+
 public class QuickSortApp {
 
     public static void main(String[] args) {
