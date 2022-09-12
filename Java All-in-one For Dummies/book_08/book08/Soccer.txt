@@ -1,0 +1,12 @@
+Liverpool 3, ManchesterUnited 3
+Tarantulas 1, FCAwesome 0
+Lions 1, FCAwesome 1
+Tarantulas 3, ManchesterUnited 1
+Lions 4, Grouches 0
+Stormers 0, Grouches 4
+Lions 0, Stormers 4
+Tarantulas 0, Grouches 4
+FCAwesome 0, ManchesterUnited 4
+Liverpool 0, Stormers 4
+
+
