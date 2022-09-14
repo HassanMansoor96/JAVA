@@ -87,19 +87,26 @@ public class page817ReadBinaryFile {
         }
     }
 }
-        /*
-        →5 The main method is intentionally kept simple so that it can focus on controlling
+       
+/*
+       
+→5 The main method is intentionally kept simple so that it can focus on controlling
 the flow of the program rather than doing the detail work of accessing
 the file. As a result, it calls a method named getStream to get a data input
 stream object to read the file. Then it uses a while loop to call a method
 named readMovie to get a movie object. If the Movie object isn’t null, the
 movie’s data is printed to the console. Finally, when the loop ends, a method
 named closeFile is called to close the file.
+
 →25 The getStream method creates a DataInputStream object for the filename
 passed as a parameter. If any exceptions are thrown, the program exits.
+
 →42 The readMovie method reads the data for a single movie and creates a
 Movie object. If the end of the file is reached, the method returns null.
+
 →64 The closeFile method closes the input stream.
+
 →76 As in the other programs in this chapter, the Movie class is defined as a
 private inner class.
-         */
+        
+*/

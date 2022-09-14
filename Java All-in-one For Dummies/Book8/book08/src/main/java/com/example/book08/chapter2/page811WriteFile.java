@@ -84,17 +84,21 @@ to the file. Next, it uses an enhanced for loop to call the writeMovie
 method for each movie in the array. This method accepts a Movie object that
 contains the movie to be written and a PrintWriter object to write the
 movie to. Finally, the PrintWriter is closed.
+
 →12 The getMovies method returns an array of Movie objects that are written to
 a file. In a real-life program, you’d probably do something other than
 hard-code the movie information in this method. You might prompt the user
 to enter the data, for example, or use a Swing frame to get the data.
+
 →37 The openWriter method creates a PrintWriter object for the filename
 passed to it as a parameter. The PrintWriter uses a buffer that’s flushed
 each time println is called.
+
 →55 The writeMovie method accepts as parameters a Movie object to be written
 and the PrintWriter to which the movie should be written. It creates a
 string that includes the title, a tab, the year, another tab, and the price; then it
 writes the string to the file.
+
 →63 The Movie class is an inner class that defines a movie object. This class
 simply consists of three public fields (title, year, and price) and a constructor
 that initializes the fields.

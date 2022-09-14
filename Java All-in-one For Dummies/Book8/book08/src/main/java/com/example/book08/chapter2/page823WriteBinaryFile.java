@@ -102,11 +102,16 @@ public Movie(String title, int year, double price)
 calls openOutputStream to get an output stream to write data to the file.
 Then an enhanced for loop calls writeMovie to write the movies to the file.
 Finally, the method calls closeFile to close the file.
+
 →12 The getMovies method creates an array of movies to be written to the file.
+
 →38 The openOutputStream method creates a DataOutputStream object so that
 the program can write data to the file.
+
 →57 The writeMovie method accepts two parameters: the movie to be written
 and the output stream to write the data to.
+
 →73 The closeFile method closes the file.
+
 →85 Once again, the Movie class is included as an inner class.
  */
