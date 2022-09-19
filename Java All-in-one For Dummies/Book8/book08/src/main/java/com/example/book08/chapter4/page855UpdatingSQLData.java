@@ -48,3 +48,19 @@ String firstName)
     }
 }
 */
+
+/*
+The getConnection method called at the start of this method is the same get
+Connection method in Listing 4-1. After a connection is created, a Statement
+object is created, and an insert statement is constructed using the values passed
+via the parameters. For example, if you pass id 3, last name Haskell, and first
+name Eddie, the following insert statement is built:
+Insert into friend (lastname, firstname, movieid)
+Values ("Haskell", "Eddie", 3)
+Then the executeUpdate method is called to execute the insert statement. An if
+statement is used to determine whether the row is inserted.
+You can execute update or delete statements in the same manner.
+While you’re testing database code that executes SQL statements constructed from
+strings like this, throw in a System.out.println call to print the statement to the
+console. That way, you can verify that the statement is being created properly.
+*/
