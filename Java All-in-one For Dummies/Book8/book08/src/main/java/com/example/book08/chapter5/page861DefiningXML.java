@@ -8,7 +8,7 @@ package com.example.book08.chapter5;
  *
  * @author Hassan
  */
-public class DefiningXML {
+public class page861DefiningXML {
     
 }
 
