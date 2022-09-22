@@ -20,3 +20,11 @@ public class page866A_DTDFileForTheMoviesxmlFile {
 <!ELEMENT Title (#PCDATA)>
 <!ELEMENT Price (#PCDATA)>
 */
+
+/*
+Each of the ELEMENT tags in a DTD defines a type of element that can appear in the
+document and indicates what can appear as the content for that element type. The
+general form of the ELEMENT tag is this:
+
+<!ELEMENT element (content)>
+*/
