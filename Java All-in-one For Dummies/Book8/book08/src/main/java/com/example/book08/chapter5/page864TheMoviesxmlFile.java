@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package page864TheMovies;
+package com.example.book08.chapter5;
 
 /**
  *
  * @author Hassan
  */
-public class xmlFile {
+public class page864TheMoviesxmlFile {
     
 }
 
