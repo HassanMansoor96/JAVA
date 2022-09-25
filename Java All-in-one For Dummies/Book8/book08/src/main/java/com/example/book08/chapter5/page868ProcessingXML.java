@@ -40,3 +40,26 @@ code for a complete method that accepts a String containing a filename as
 a parameter and returns a document object as its return value. Along the way, you
 find out what each class and method does.
 */
+
+/*
+Here’s a method that reads an XML file into a DOM document:
+private static Document getDocument(String name)
+{
+try
+{
+DocumentBuilderFactory factory =
+DocumentBuilderFactory.newInstance();
+factory.setIgnoringComments(true);
+factory.setIgnoringElementContentWhitespace(true);
+factory.setValidating(true);
+DocumentBuilder builder =
+factory.newDocumentBuilder();
+return builder.parse(new InputSource(name));
+}
+catch (Exception e)
+{
+System.out.println(e.getMessage());
+}
+return null;
+}
+*/
