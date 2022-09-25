@@ -28,3 +28,15 @@ react to them as they come. Because SAX doesn’t require you to store an
 entire XML document in memory at one time, it’s often used for very large
 XML documents.
 */
+
+
+/*
+Reading a DOM Document
+Before you can process a DOM document, you have to read the document into
+memory from an XML file. You’d think that this would be a fairly straightforward
+proposition, but unfortunately, it involves some pretty strange incantations. Rather
+than go through all the classes and methods you have to use, I just look at the finished
+code for a complete method that accepts a String containing a filename as
+a parameter and returns a document object as its return value. Along the way, you
+find out what each class and method does.
+*/
