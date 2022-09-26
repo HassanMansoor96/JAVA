@@ -63,3 +63,15 @@ System.out.println(e.getMessage());
 return null;
 }
 */
+
+/*
+Creating a DocumentBuilderFactory
+The first statement of the preceding example calls the newInstance method of the
+DocumentBuilderFactory class to create a new DocumentBuilderFactory object.
+The job of the DocumentBuilderFactory is to create DocumentBuilder objects
+that can read XML input and create DOM documents in memory.
+Why not just call the DocumentBuilderFactory constructor? It turns out that
+DocumentBuilderFactory is an abstract class, so it doesn’t have a constructor.
+newInstance is a static method that determines which class to create an instance
+of based on the way your system is configured
+*/
