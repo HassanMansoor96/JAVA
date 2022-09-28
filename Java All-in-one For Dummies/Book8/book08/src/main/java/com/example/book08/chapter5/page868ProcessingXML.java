@@ -75,3 +75,13 @@ DocumentBuilderFactory is an abstract class, so it doesn’t have a constructor.
 newInstance is a static method that determines which class to create an instance
 of based on the way your system is configured
 */
+
+/*
+Configuring the DocumentBuilderFactory
+After you get a DocumentBuilderFactory, you can configure it to read the document
+the way you want. The next three statements configure three options that
+are applied to document builders created by this factory object:
+factory.setIgnoringComments(true);
+factory.setIgnoringElementContentWhitespace(true);
+factory.setValidating(true);
+*/
