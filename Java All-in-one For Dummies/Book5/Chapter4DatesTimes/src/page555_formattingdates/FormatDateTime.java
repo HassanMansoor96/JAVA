@@ -4,12 +4,18 @@
  */
 package page555_formattingdates;
 
-import java.util.*;
-import java.time.*;
-import java.time.format.*;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
+/**
+ *
+ * @author Hassan
+ */
 public class FormatDateTime {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         LocalDateTime now = LocalDateTime.now();
         printDate(now, "YYYY-MM-dd");
@@ -18,6 +24,7 @@ public class FormatDateTime {
         printDate(now, "MMMM d, YYYY");
         printDate(now, "HH:mm");
         printDate(now, "h:mm a");
+        
     }
 
     public static void printDate(LocalDateTime date, String pattern) {
@@ -27,3 +34,12 @@ public class FormatDateTime {
         System.out.println(pattern + " " + date.format(f));
     }
 }
+
+/*
+YYYY-MM-dd 2013-10-09
+MM-dd-YYYY 10-09-2013
+dd MMM YYYY 09 Oct 2013
+MMMM d, YYYY October 9, 2013
+HH:mm 20:29
+h:mm a 8:29 PM
+*/
