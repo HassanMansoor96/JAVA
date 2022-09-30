@@ -30,7 +30,7 @@ public class FormatDateTime {
     public static void printDate(LocalDateTime date, String pattern) {
         DateTimeFormatter f;
         f = DateTimeFormatter.ofPattern(pattern);
-        pattern = (pattern + " ").substring(0, 14);
+        pattern = (pattern + " ");
         System.out.println(pattern + " " + date.format(f));
     }
 }
