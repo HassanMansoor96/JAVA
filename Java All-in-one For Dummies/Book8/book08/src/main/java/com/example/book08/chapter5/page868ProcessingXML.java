@@ -85,3 +85,13 @@ factory.setIgnoringComments(true);
 factory.setIgnoringElementContentWhitespace(true);
 factory.setValidating(true);
 */
+
+/*
+Creating a document builder
+and the document
+After you set the options, you can call the newDocumentBuilder method to create
+a document builder, as follows:
+DocumentBuilder builder =
+factory.newDocumentBuilder();
+Here the document builder is referenced by a variable named builder.
+*/
