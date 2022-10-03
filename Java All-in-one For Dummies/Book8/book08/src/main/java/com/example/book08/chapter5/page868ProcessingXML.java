@@ -94,4 +94,16 @@ a document builder, as follows:
 DocumentBuilder builder =
 factory.newDocumentBuilder();
 Here the document builder is referenced by a variable named builder.
+
+Finally, you can create the DOM document by calling the parse method of the document
+builder. This method accepts an InputSource object as a parameter. Fortunately,
+the InputSource class has a constructor that takes a filename parameter
+and returns an input source linked to the file. So you can create the input source,
+parse the XML file, create a DOM document, and return the DOM document to the
+caller, all in one statement:
+return builder.parse(new InputSource(name));
+Note that several of these methods throw exceptions. In particular, newDocument
+Builder throws ParserConfigurationException, and parse throws IOException
+and SAXException. To keep this example simple, I caught all exceptions in one
+catch clause and printed the exception message to the console.
 */
