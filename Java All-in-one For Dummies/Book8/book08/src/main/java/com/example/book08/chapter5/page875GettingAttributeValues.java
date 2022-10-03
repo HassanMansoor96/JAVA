@@ -26,4 +26,15 @@ file and determines the year of the oldest movie in the collection:
 
 Element root = doc.getDocumentElement();
 Element movie = (Element)root.getFirstChild();
+int oldest = 9999;
+while (movie != null)
+{
+String s = movie.getAttribute("year");
+int year = Integer.parseInt(s);
+if (year < oldest)
+oldest = year;
+movie = (Element)movie.getNextSibling();
+}
+System.out.println("The oldest movie in the file "
++ "is from " + oldest + ".");
 */
