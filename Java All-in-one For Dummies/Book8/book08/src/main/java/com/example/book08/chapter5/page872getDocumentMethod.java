@@ -57,4 +57,11 @@ in a Text node that’s stored as a child of the element. The Text interface has
 a few interesting methods you may want to look up, but for most applications,
 you just use the getNodeValue method inherited from the Node interface to
 retrieve the text stored by a text node.
+
+»»NodeList: A NodeList is a collection of nodes that’s returned by methods
+such as the getChildNodes method of the Node interface or the get
+ElementsByTagName of the Element interface. NodeList has just two
+methods: item(int i), which returns the node at the specified index,
+and getLength(), which returns the number of items in the list. (As with
+almost every other index in Java, the first node is index 0, not 1.)
 */
