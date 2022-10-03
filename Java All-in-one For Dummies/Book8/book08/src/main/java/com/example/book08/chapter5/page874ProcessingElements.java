@@ -43,4 +43,21 @@ There are 10 movies.
 This program doesn’t do anything with the Movie elements other than count
 them, but in the next section (“Getting attribute values”), you see how to extract
 data from the Movie elements.
+
+An alternative way to process all the elements in the movies.xml file is to use the
+getChildNodes method to return a NodeList object that contains all the elements.
+Then you can use a for loop to access each element individually. Here’s a snippet
+of code that lists the name of each element:
+
+Element root = doc.getDocumentElement();
+NodeList movies = root.getChildNodes();
+for (int i = 0; i < movies.getLength(); i++)
+{
+Node movie = movies.item(i);
+System.out.println(movie.getNodeName());
+}
+
+Here the item method is used in the for loop to retrieve each Movie element. If
+you run a program that contains these lines, ten lines with the word Movie are
+displayed on the console.
 */
