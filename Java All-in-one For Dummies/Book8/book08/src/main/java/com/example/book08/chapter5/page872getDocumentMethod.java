@@ -27,3 +27,23 @@ import org.xml.sax.*;
 DocumentBuilder and DocumentBuilderFactory are in the javax.xml.parsers
 package, Document is in org.w3c.dom, and InputSource is in org.xml.sax.
 */
+
+/*
+Reading DOM Nodes
+After you have a DOM document in memory, you can easily retrieve data from the
+document’s nodes. The DOM API is based on interfaces rather than classes, so
+each node of the DOM document is represented by an object that implements one
+or more DOM interfaces. The following paragraphs give you an overview of the
+interfaces you need to work with:
+
+»»Document: The entire document is represented by an object that implements
+the Document interface. The method you use most from this interface is
+getDocumentElement, which returns an Element object that represents the
+document’s root node. After you have the root node, you can navigate to
+other nodes in the document to get the information you’re looking for.
+
+»»Node: The Node interface represents a node in the DOM document. This
+interface provides methods that are common to all nodes. Table 5-4 lists the
+most useful of these methods. This table also lists some of the field values
+that the getNodeType method can return.
+*/
