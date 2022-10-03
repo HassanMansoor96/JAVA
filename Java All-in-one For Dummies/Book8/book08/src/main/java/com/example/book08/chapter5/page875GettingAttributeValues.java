@@ -37,4 +37,18 @@ movie = (Element)movie.getNextSibling();
 }
 System.out.println("The oldest movie in the file "
 + "is from " + oldest + ".");
+
+The year attribute is extracted with these two lines of code:
+
+String s = movie.getAttribute("year");
+int year = Integer.parseInt(s);
+
+The first line gets the string value of the year attribute, and the second line converts
+it to an int.
+
+Notice the extra casting that’s done in this method. It’s necessary because the
+movie variable has to be an Element type so that you can call the getAttribute
+method. The getNextSibling method returns a Node, however, not an Element.
+As a result, the compiler doesn’t let you assign the node to the movie variable
+unless you first cast it to an Element.
 */
