@@ -47,8 +47,14 @@ interface provides methods that are common to all nodes. Table 5-4 lists the
 most useful of these methods. This table also lists some of the field values
 that the getNodeType method can return.
 
-Element: The Element interface represents nodes that correspond to
+»»Element: The Element interface represents nodes that correspond to
 elements in the XML document. Element extends Node, so any object that
 implements Element is also a Node. Table 5-5 lists some of the most useful
 methods of this interface.
+
+»»Text: The text content of an element isn’t contained in the element itself, but
+in a Text node that’s stored as a child of the element. The Text interface has
+a few interesting methods you may want to look up, but for most applications,
+you just use the getNodeValue method inherited from the Node interface to
+retrieve the text stored by a text node.
 */
