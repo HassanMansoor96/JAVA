@@ -34,4 +34,13 @@ System.out.println("There are " + count + " movies.");
 This method first calls the getFirstChild method to get the first child of the root
 element. Then it uses each child element’s getNextSibling method to get the
 next element that’s also a child of the root element.
+
+If you run a program that contains these lines, the following line appears on the
+console:
+
+There are 10 movies.
+
+This program doesn’t do anything with the Movie elements other than count
+them, but in the next section (“Getting attribute values”), you see how to extract
+data from the Movie elements.
 */
