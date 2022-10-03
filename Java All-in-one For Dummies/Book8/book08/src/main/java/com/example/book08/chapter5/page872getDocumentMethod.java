@@ -46,4 +46,9 @@ other nodes in the document to get the information you’re looking for.
 interface provides methods that are common to all nodes. Table 5-4 lists the
 most useful of these methods. This table also lists some of the field values
 that the getNodeType method can return.
+
+Element: The Element interface represents nodes that correspond to
+elements in the XML document. Element extends Node, so any object that
+implements Element is also a Node. Table 5-5 lists some of the most useful
+methods of this interface.
 */
