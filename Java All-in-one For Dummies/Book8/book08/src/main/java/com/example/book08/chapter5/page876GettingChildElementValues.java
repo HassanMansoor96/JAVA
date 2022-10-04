@@ -30,4 +30,25 @@ you can get the text content, as in this example:
 
 Node textElement = titleElement.getFirstChild();
 String title = textElement.getNodeValue();
+
+If you prefer to write your code a little more tersely, you can use a single statement
+like this:
+
+String title =
+titleElement.getFirstChild().getNodeValue();
+
+If you find this incantation to be a little tedious, and you’re doing a lot of it in your
+program, write yourself a little helper method, like this one:
+
+private static String getTextValue(Node n)
+{
+return n.getFirstChild().getNodeValue();
+}
+
+Then you can get the text content for an element by calling the getTextValue
+method, like this:
+
+String title = getTextValue(titleElement);
+
+After you get the text content, you can parse it to a numeric type if you need to.
 */
